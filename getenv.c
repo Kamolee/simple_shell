@@ -53,4 +53,4 @@ return (info->env_changed);
  * @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
  * @var: the string env var property
-
+*/
