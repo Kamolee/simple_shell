@@ -10,9 +10,9 @@
  */
 int betty_main(int n1, int n2)
 {
+int sum = 0;
 n1 = 5;
 n2 = 20;
-int sum = 0;
 sum = n1 + n2;
 printf("the sum is %d", sum);
 return (0);
