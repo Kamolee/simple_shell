@@ -1,4 +1,5 @@
-#include "shell.h"
+
+#include "0_betty.c"
 
 /**
  * betty_main - calculayes the sum of two numbers
@@ -10,10 +11,9 @@
  */
 int betty_main(int n1, int n2)
 {
-int sum = 0;
 n1 = 5;
 n2 = 20;
-sum = n1 + n2;
-printf("the sum is %d", sum);
+
+printf("the sum is %d", calcsum);
 return (0);
 }
