@@ -65,10 +65,12 @@ token = strtok(NULL, delim);
 }
 argv[j] = NULL;
 
+execu(argv);
+}
 printf("%s\n", lineptr);
 
+free(lineptr_copy);
 free(lineptr);
 
-}
-return (0);
+return(0);
 }
