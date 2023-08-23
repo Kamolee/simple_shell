@@ -1,19 +1,17 @@
-
-#include "0_betty.c"
+#include "main.h"
 
 /**
- * betty_main - calculayes the sum of two numbers
- * @n1: number received
- * @n2: number received
+ * calcsum -test thecalcsum
+ * @n1: num entered
+ * @n2: num entered
  *
  * Description -
  * Return: 0
  */
 int betty_main(int n1, int n2)
 {
+int s = 0;
 n1 = 5;
-n2 = 20;
-
-printf("the sum is %d", calcsum);
-return (0);
+n2 = 10;
+s = n1 + n2;
 }
