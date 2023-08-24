@@ -10,6 +10,6 @@
 
 void execu(char **argv);
 char *get_location(char *command);
-
+int calcsum(int num1, int num2);
 
 #endif

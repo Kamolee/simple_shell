@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * execu - executes the code
+ * @argv: received
+ *
+ * Description-
+ *
+ */
+
 void execu(char **argv)
 {
 char *command = NULL;
